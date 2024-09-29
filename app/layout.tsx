@@ -7,8 +7,8 @@ import { ThemeProvider } from "./provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Adrian's Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  title: "Misbah's Portfolio",
+  description: "Nextjs Portfolio",
 };
 
 export default function RootLayout({
@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="https://imgv2-2-f.scribdassets.com/img/document/675284329/original/0c7bfed9b0/1703572063?v=1" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
