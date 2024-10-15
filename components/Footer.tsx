@@ -189,7 +189,7 @@ const Footer = () => {
                         name="textarea"
                         placeholder="Write your message..."
                         className="w-full p-3 rounded-lg border border-gray-300 dark:bg-slate-800 dark:text-gray-300 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                        rows="5"
+                        rows={5}
                       />
                     </div>
                     <button
@@ -206,13 +206,13 @@ const Footer = () => {
         </section>
 
         {/* Social Links */}
-        <div className="flex space-x-5 mt-10">
+        {/* <div className="flex space-x-5 mt-10">
           {socialMedia.map((item) => (
             <a href={item.url} target="_blank" rel="noopener noreferrer" key={item.name}>
               <img src={item.icon} alt={item.name} className="w-6 h-6" />
             </a>
           ))}
-        </div>
+        </div> */}
       </div>
     </footer>
   );
